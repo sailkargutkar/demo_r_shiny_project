@@ -159,7 +159,8 @@ Here is the git url to exported outputs, [Exported plots](https://github.com/sai
 
 ## Code Referrences
 ### Javascript 
-[Javascript code](https://github.com/sailkargutkar/demo_r_shiny_project/blob/12d352c374c310031053d5f15667b0774db107ec/app/main.R#L50)
+[Javascript code referrence 1](https://github.com/sailkargutkar/demo_r_shiny_project/blob/9d89c76c3dfb69aad352b02b9bdf33c8c49cfdfa/app/main.R#L50)
+[Javascript code referrence 2](https://github.com/sailkargutkar/demo_r_shiny_project/blob/9d89c76c3dfb69aad352b02b9bdf33c8c49cfdfa/app/main.R#L358)
 - The script manages connection intervals for a Shiny application, starting an interval to log a message every 50 seconds when connected and clearing it when disconnected.
 - It also simulates a click on a specific radio button when the document is ready to ensure that the desired radio button is selected automatically.
 - This combination of event handling and DOM manipulation helps maintain the desired application state and user interface behavior.
@@ -179,8 +180,8 @@ To customize the appearance further, we have overridden the default theme CSS wi
 To ensure the application is accessible and visually appealing on various devices, we have implemented media queries. These allow us to apply different styles based on the screen size, providing an optimal user experience on desktops, tablets, and mobile devices.
 
 ### Rlang Package
-[Function definition code](https://github.com/sailkargutkar/demo_r_shiny_project/blob/12d352c374c310031053d5f15667b0774db107ec/app/logic/utils/common_utils.R#L841)
-[Function calling code](https://github.com/sailkargutkar/demo_r_shiny_project/blob/12d352c374c310031053d5f15667b0774db107ec/app/view/demo_analysis_barplot.R#L146)
+[Function definition code](https://github.com/sailkargutkar/demo_r_shiny_project/blob/9d89c76c3dfb69aad352b02b9bdf33c8c49cfdfa/app/logic/utils/common_utils.R#L806)
+[Function calling code](https://github.com/sailkargutkar/demo_r_shiny_project/blob/9d89c76c3dfb69aad352b02b9bdf33c8c49cfdfa/app/view/demo_analysis_barplot.R#L139)
 
 - The custom function summarise_count leverages tidy evaluation to dynamically group data by a specified variable.
 - It uses the enquo function from the rlang package to capture and quote the grouping variable.
