@@ -180,10 +180,17 @@ To customize the appearance further, we have overridden the default theme CSS wi
 To ensure the application is accessible and visually appealing on various devices, we have implemented media queries. These allow us to apply different styles based on the screen size, providing an optimal user experience on desktops, tablets, and mobile devices.
 
 ### Rlang Package
+
+#### Referrence 1
 [Function definition code](https://github.com/sailkargutkar/demo_r_shiny_project/blob/9d89c76c3dfb69aad352b02b9bdf33c8c49cfdfa/app/logic/utils/common_utils.R#L806)
+
 [Function calling code](https://github.com/sailkargutkar/demo_r_shiny_project/blob/9d89c76c3dfb69aad352b02b9bdf33c8c49cfdfa/app/view/demo_analysis_barplot.R#L139)
 
 - The custom function summarise_count leverages tidy evaluation to dynamically group data by a specified variable.
 - It uses the enquo function from the rlang package to capture and quote the grouping variable.
 - The group_by function groups the data, and summarise calculates the count of observations within each group.
 - This function is useful for dynamically summarising data based on different grouping variables without having to hard-code them.
+
+#### Referrence 2
+[Rlang::sym()](https://github.com/sailkargutkar/demo_r_shiny_project/blob/5c3c45323df68d3b99e0511ebecd5a243eaaf4d3/app/view/demo_analysis_barplot.R#L139)
+Converts the string input$var into a symbol. This allows us to use the variable name dynamically in echarts4r barplot.
